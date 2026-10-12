@@ -1,0 +1,25 @@
+# Downloaded dependencies and generated Lean products
+/.lake/
+*.olean
+*.ilean
+*.olean.*
+
+# Generated verification reports belong in CI artifacts
+/AxiomAudit.lean
+/check_result.json
+/checked_theorems.json
+/ci-metadata.json
+*.log
+
+# Local and private working material
+/work/
+/inputs/
+/raw/
+/outputs/
+*.pdf
+*.docx
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.pyc
