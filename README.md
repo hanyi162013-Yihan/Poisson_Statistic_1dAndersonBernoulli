@@ -5,13 +5,17 @@ the one-dimensional Anderson model, including nondegenerate Bernoulli
 potentials. The project uses mathlib and the actual finite Dirichlet matrix
 spectrum.
 
-The source snapshot contains **198 Lean modules**, including the root import
-module, and **1,734 public theorem or lemma declarations**. These modules and
-the final theorem signatures have passed individual checks. The complete
-repository build and transitive axiom audit are still in progress; this
-snapshot does not yet carry a successful full-verification result. The
-[cloud verification run](https://github.com/hanyi162013-Yihan/Poisson_Statistic_1dAndersonBernoulli/actions/runs/38197193741)
-records the actual current status.
+The verified snapshot contains **198 Lean modules**, including the root import
+module, and **1,734 public theorem or lemma declarations**. Both the local
+complete check and the
+[GitHub Actions verification](https://github.com/hanyi162013-Yihan/Poisson_Statistic_1dAndersonBernoulli/actions/runs/38197193741)
+**passed** on the same 203 source/configuration hashes. The checks include the
+complete library build, all 1,734 public proof axiom closures, the constructed
+Furstenberg input, and the exact final theorem signatures. The recorded main
+status is `PROVED_FOR_POTENTIAL_LAW`. Both runs produced identical result JSON,
+audited declaration inventories, and axiom logs. The cloud run verified source
+commit `3abb1d03dbc390f371963f70c0cb78ec8c178715`; subsequent documentation-only
+updates do not change that verified Lean snapshot.
 
 ## Mathematical statements
 
