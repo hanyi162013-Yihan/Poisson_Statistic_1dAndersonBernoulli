@@ -44,7 +44,7 @@ Poisson point process on $\mathbb R$:
   hypothesis.
 - **Bernoulli specialization:** for potential values $a<b$, probabilities
   $0<p<1$, and
-  $E\in\operatorname{int}([a-2,a+2]\cup[b-2,b+2])$, the IDS conclusion follows
+  $E\in\mathrm{int}([a-2,a+2]\cup[b-2,b+2])$, the IDS conclusion follows
   without an additional IDS regularity hypothesis. The required local strict
   increase is proved.
 
